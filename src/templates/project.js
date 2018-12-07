@@ -97,6 +97,7 @@ export const pageQuery = graphql`
         tags
         title
         updatedDate
+        project_url
       }
     }
   }
