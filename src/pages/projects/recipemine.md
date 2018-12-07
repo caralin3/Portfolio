@@ -2,13 +2,13 @@
 templateKey: project
 title: RecipeMine
 createdDate: 'November 13, 2018'
-updatedDate: ''
+updatedDate: Invalid date
 thumbnail: /img/recipe-mine.png
-description: Online Recipe Cookbook
-project_url: 'https://recipemine-prod.firebaseapp.com'
+description: Desc
+project_url: asdsa
 tags:
   - Angular
   - Design
   - SASS
 ---
-Site
+Site aslkdjas dlsakjdlksa djl
