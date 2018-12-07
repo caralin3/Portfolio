@@ -4,6 +4,9 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+display_url: https://carasteinberg.netlify.com
+# logo_url: https://your-site.com/images/logo.svg
 
 collections:
   - name: "blog"
@@ -16,6 +19,21 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+  - name: "projects"
+    label: "Projects"
+    folder: "src/pages/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Created", name: "createdDate", widget: "date", format: "MMMM YYYY"}
+      - {label: "Updated Date", name: "updatedDate", widget: "date", format: "MMMM YYYY", required: false, default: ''}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Site Url", name: "project_url", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
