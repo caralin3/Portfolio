@@ -97,7 +97,6 @@ export const pageQuery = graphql`
         tags
         title
         updatedDate
-        url
       }
     }
   }
