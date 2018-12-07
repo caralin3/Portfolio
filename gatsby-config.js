@@ -33,6 +33,10 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
+        commonmark: true,
+        gsm: true,
+        excerpt: true,
+        pedantic: true,
         plugins: [
           {
             resolve: 'gatsby-remark-relative-images',

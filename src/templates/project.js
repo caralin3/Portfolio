@@ -62,10 +62,10 @@ const Project = ({ data }) => {
       <ProjectTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        description={post.frontmatter.createdDate}
         helmet={
           <Helmet
-            titleTemplate="%s | Blog"
+            titleTemplate="Cara Steinberg | %s"
           >
             <title>{`${post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.frontmatter.description}`} />
@@ -92,7 +92,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM YYYY")
+        createdDate
         title
         description
         tags

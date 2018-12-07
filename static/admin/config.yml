@@ -29,7 +29,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Created", name: "createdDate", widget: "date", format: "MMMM DD, YYYY"}
+      - {label: "Created", name: "date", widget: "date", format: "MMMM DD, YYYY"}
       - {label: "Updated Date", name: "updatedDate", widget: "date", format: "MMMM DD, YYYY", required: false, default: ''}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "text"}
