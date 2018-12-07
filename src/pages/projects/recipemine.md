@@ -5,7 +5,7 @@ createdDate: 'November 13, 2018'
 updatedDate: ''
 thumbnail: /img/recipe-mine.png
 description: Online Recipe book
-project_url: 'https://recipemine-prod.firebaseapp.com'
+url: 'https://recipemine-prod.firebaseapp.com'
 tags:
   - Angular
 ---
