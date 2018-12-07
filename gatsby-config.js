@@ -33,6 +33,7 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
+        // Allow custom frontmatter fields
         commonmark: true,
         gsm: true,
         excerpt: true,

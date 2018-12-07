@@ -93,9 +93,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         createdDate
-        title
         description
         tags
+        title
+        updatedDate
+        url
       }
     }
   }
